@@ -1,0 +1,50 @@
+body {
+   background-image: url(hd.jpg);
+   background-size: cover;
+   font-family: monospace;
+}
+/* --------------------------- style of buttons and links --------------------------- */
+.btn,
+.form-container input[type="submit"] {
+   border: 1px solid white;
+   border-radius: 0px;
+   padding: 10px 30px;
+   color: white;
+   background-color: #6494ed60;
+   text-decoration: none;
+   margin-right: 20px;
+   font-size: 26px;
+   text-transform: capitalize;
+}
+.btn:hover,
+.form-container input[type="submit"]:hover {
+   color: cornflowerblue;
+   background-color: whitesmoke;
+}
+/* --------------------------- form-container --------------------------- */
+.form-container {
+   display: block;
+   margin-top: 200px;
+   margin-inline: auto; /* horizontal margin */
+   padding: 50px;
+   border-radius: 5px;
+   width: 500px;
+   background-color: rgba(0, 0, 0, 0.712);
+}
+.form-container label {
+   font-size: 40px;
+   color: white;
+}
+.form-container input {
+   display: block;
+   font-size: 20px;
+   padding: 10px;
+   margin-bottom: 20px;
+}
+.form-container a,
+.form-container input[type="submit"] {
+   display: block; /* for .login a */
+   margin: 20px auto;
+   width: fit-content; /* for .login a */
+   border-radius: 10px;
+}

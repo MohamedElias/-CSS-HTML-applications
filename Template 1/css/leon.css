@@ -1,0 +1,33 @@
+/* start global rules */
+*{
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+}
+body{
+   font-family: "Work Sans" , sans-serif;
+}
+div.parent{
+   background-color: #eee;
+   margin-inline: auto;
+}
+@media(max-width: 768px){
+   div.parent{
+      width: 450px;
+   }
+}
+@media(min-width: 768px){
+   div.parent{
+      width: 550px;
+   }
+}
+@media(min-width: 992px){
+   div.parent{
+      width: 970px;
+   }
+}
+@media(min-width: 1200px){
+   div.parent{
+      width: 1170px;
+   }
+}
